@@ -2,10 +2,10 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # 페이지 설정: 가로를 넓게 쓰고 메뉴바를 숨겨서 깔끔하게 만듭니다.
-st.set_page_config(page_title="청소 일정표", layout="wide")
+st.set_page_config(page_title="서비스 일정표", layout="wide")
 
 # 사이트 제목
-st.title("🗓️ 청소 예약 일정표")
+st.title("🗓️ 서비스 일정표")
 
 # 질문자님의 캘린더 ID를 기반으로 만든 임베드 주소
 # ctz=Asia/Seoul: 한국 시간 기준
